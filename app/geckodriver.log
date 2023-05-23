@@ -1,0 +1,47 @@
+1682479995572	geckodriver	INFO	Listening on 127.0.0.1:34047
+/snap/firefox/current/firefox.launcher: 60: exec: /snap/code/126/usr/lib/firefox/firefox: not found
+1682479996087	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/sna ... te" "--remote-debugging-port" "35293" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileA3h0SG"
+/snap/firefox/current/firefox.launcher: 60: exec: /snap/code/126/usr/lib/firefox/firefox: not found
+1682480683357	geckodriver	INFO	Listening on 127.0.0.1:45069
+/snap/firefox/current/firefox.launcher: 60: exec: /snap/code/126/usr/lib/firefox/firefox: not found
+1682480683406	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/sna ... te" "--remote-debugging-port" "48819" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezIpUAN"
+/snap/firefox/current/firefox.launcher: 60: exec: /snap/code/126/usr/lib/firefox/firefox: not found
+1682480804195	geckodriver	INFO	Listening on 127.0.0.1:34231
+/snap/firefox/current/firefox.launcher: 60: exec: /snap/code/126/usr/lib/firefox/firefox: not found
+1682480804703	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/sna ... te" "--remote-debugging-port" "57673" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilekE9AFv"
+/snap/firefox/current/firefox.launcher: 60: exec: /snap/code/126/usr/lib/firefox/firefox: not found
+1682481579816	geckodriver	INFO	Listening on 127.0.0.1:50777
+/snap/firefox/current/firefox.launcher: 60: exec: /snap/code/126/usr/lib/firefox/firefox: not found
+1682481580340	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/sna ... te" "--remote-debugging-port" "60061" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileZ12bQm"
+/snap/firefox/current/firefox.launcher: 60: exec: /snap/code/126/usr/lib/firefox/firefox: not found
+1682481615787	geckodriver	INFO	Listening on 127.0.0.1:50051
+/snap/firefox/current/firefox.launcher: 60: exec: /snap/code/126/usr/lib/firefox/firefox: not found
+1682481616301	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/sna ... te" "--remote-debugging-port" "60155" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile8YukAM"
+/snap/firefox/current/firefox.launcher: 60: exec: /snap/code/126/usr/lib/firefox/firefox: not found
+1682481847103	geckodriver	INFO	Listening on 127.0.0.1:60123
+/snap/firefox/current/firefox.launcher: 60: exec: /snap/code/126/usr/lib/firefox/firefox: not found
+1682481847629	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/sna ... te" "--remote-debugging-port" "38293" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile40tojF"
+/snap/firefox/current/firefox.launcher: 60: exec: /snap/code/126/usr/lib/firefox/firefox: not found
+1682481965990	geckodriver	INFO	Listening on 127.0.0.1:49799
+/snap/firefox/current/firefox.launcher: 60: exec: /snap/code/126/usr/lib/firefox/firefox: not found
+1682481966506	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/sna ... te" "--remote-debugging-port" "38393" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilewtwOTd"
+/snap/firefox/current/firefox.launcher: 60: exec: /snap/code/126/usr/lib/firefox/firefox: not found
+1682482555036	geckodriver	INFO	Listening on 127.0.0.1:51803
+1682482555531	mozrunner::runner	INFO	Running command: "/snap/firefox/current/usr/lib/firefox/firefox" "--marionette" "--remote-debugging-port" "43535" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileaZczyj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1682482557635	Marionette	INFO	Marionette enabled
+1682482557641	Marionette	INFO	Listening on port 40071
+Read port: 40071
+WebDriver BiDi listening on ws://127.0.0.1:43535
+1682482557940	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaZczyj/search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:43535/devtools/browser/d919e727-f191-43a7-821f-cf6cc21f8716
+1682482739702	Marionette	INFO	Stopped listening on port 40071
