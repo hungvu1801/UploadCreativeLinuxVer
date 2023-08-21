@@ -9,18 +9,36 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+# browser = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+
 def initBrowser():
     try:
         # Config options
         options = Options()
         # options.add_argument("--headless=new")
+        options.add_argument("--disable-blink-features=AutomationControlled") 
+            # Exclude the collection of enable-automation switches 
+        options.add_experimental_option("excludeSwitches", ["enable-automation"]) 
+        
+        # Turn-off userAutomationExtension 
+        options.add_experimental_option("useAutomationExtension", False) 
+        ###########################################################################
 
         options.page_load_strategy = 'normal'
 
-        # options.add_argument('--no-sandbox')
         options.add_argument('--disable-dev-shm-usage')
 
         browser = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+        
+        # useragentSpoofing = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+        # browser.execute_cdp_cmd("Network.setUserAgentOverride", {"userAgent": useragentSpoofing}) 
+
+        # print(browser.execute_script("return navigator.userAgent;"))
+
+        # Changing the property of the navigator value for webdriver to undefined 
+        browser.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})") 
+
         return browser
     except Exception as err:
         print(f'{err}')
