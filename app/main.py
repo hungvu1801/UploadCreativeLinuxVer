@@ -50,8 +50,8 @@ def main():
         
     #########################################################################
     ############################ UPLOAD SESSION #############################
-    browser = uploadProductsSession(file, dataDir, browser)
-    if not browser:
-        return 0
-    _ = input()
-    browser.quit()
+    # browser = uploadProductsSession(file, dataDir, browser)
+    # if not browser:
+    #     return 0
+    # _ = input()
+    # browser.quit()
