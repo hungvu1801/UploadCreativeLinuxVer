@@ -403,3 +403,8 @@ userdata/*
 Tmp/*
 userpass.txt
 *.spec
+upload_venv/*
+*/__pycache__/*
+__pycache__/*
+*/__pycache__/
+app/__pycache__/*

@@ -29,7 +29,8 @@ def initBrowser():
 
 def browseWebsite(browser):
     try:
-        browser.get('https://www.creativefabrica.com/login/')
+        browser.get('https://www.creativefabrica.com/')
+        _ = input()
         browser.implicitly_wait(10)
         time.sleep(2)
         return browser

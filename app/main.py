@@ -37,9 +37,9 @@ def logInSession():
 def main():
     #########################################################################
     ######################### READ FILES SESSION ############################
-    file, dataDir = readFilesSession()
-    if file.empty or not dataDir:
-        return 0
+    # file, dataDir = readFilesSession()
+    # if file.empty or not dataDir:
+    #     return 0
 
     #########################################################################
     ############################ LOG IN SESSION #############################
