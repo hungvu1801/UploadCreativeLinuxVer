@@ -7,7 +7,7 @@ from selenium.webdriver.common.keys import Keys
 from webdriver_manager.chrome import ChromeDriverManager
  
 options = Options()
-options.add_argument("--headless=new")
+#options.add_argument("--headless=new")
 
 # wait like normal
 options.page_load_strategy = 'normal'
@@ -16,6 +16,7 @@ options.add_argument('--disable-dev-shm-usage')
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
  
 driver.get('http://www.google.com')
+_ = input()
 search = driver.find_element(by=By.NAME, value="q")
 search.send_keys("Hey, Tecadmin")
 search.send_keys(Keys.RETURN)
